@@ -5,10 +5,10 @@ CREATE DATABASE employees_db;
 
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
-  deparment_name VARCHAR(30) UNIQUE NOT NULL
+  name VARCHAR(30) UNIQUE NOT NULL
 );
 
-CREATE TABLE roles (
+CREATE TABLE role (
     id SERIAL PRIMARY KEY,
     title VARCHAR(30) UNIQUE NOT NULL,
     salary DECIMAL NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE employee (
   role_id INTEGER NOT NULL,
   manager_id INTEGER,
   FOREIGN KEY (role_id)
-  REFERENCES roles (id),
+  REFERENCES role (id),
   FOREIGN KEY (manager_id)
   REFERENCES employee (id)
   ON DELETE CASCADE

@@ -18,13 +18,13 @@ function startApp(): void {
       name: "action",
       message: "What would you like to do?",
       choices: [
-        "View all departments",
-        "View all roles",
         "View all employees",
-        "Add a department",
-        "Add a role",
         "Add an employee",
         "Update an employee role",
+        "View all roles",
+        "Add a role",
+        "View all departments",
+        "Add a department",
         "Exit",
       ],
     })
@@ -264,3 +264,5 @@ function viewDepartments(): void {
       });
     });
   }
+
+  startApp();
