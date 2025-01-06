@@ -59,6 +59,8 @@ Employee Tracker is a command-line application that helps businesses manage thei
    • Delete a department, role, or employee
 3. Select the desired option using your arrow keys and follow the prompts to manage your employee database.
 
+Here's an instructional video that you can watch: https://drive.google.com/file/d/1GzaLJwIeOX5uRvYYzstxz9HK3D7L2Fqq/view
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
