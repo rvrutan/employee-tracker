@@ -76,4 +76,4 @@ Contact me for any further questions;
 
 • Github: [rvrutan] (https://github.com/rvrutan)
 
-• Email: [rutanroni@gmail.com](mailto: rutanroni@gmail.com)
+• Email: [rutanroni@gmail.com]
