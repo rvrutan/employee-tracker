@@ -12,18 +12,22 @@ A robust command-line application for managing employee data, built with Node.js
 
 ### Department Management
 View all departments in your organization:
+
 ![View Departments](assets/images/view-all-departments.JPG)
 
 ### Role Management
 View all roles with their associated departments and salaries:
+
 ![View Roles](assets/images/view-all-roles.JPG)
 
 ### Employee Management
 View employees organized by department:
+
 ![View Employees by Department](assets/images/view-employees-by-department.JPG)
 
 ### Budget Management
 Track department budgets and salary expenditures:
+
 ![View Department Budget](assets/images/view-department-budget.JPG)
 
 ## Features
